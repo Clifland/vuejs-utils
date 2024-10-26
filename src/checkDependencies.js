@@ -1,4 +1,4 @@
-function checkDependencies() {
+export function checkDependencies() {
     let vitestMissing = false;
     let vueTestUtilsMissing = false;
 
