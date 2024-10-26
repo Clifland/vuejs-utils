@@ -1,0 +1,30 @@
+{
+  "name": "@clifland/vuejs-utils",
+  "version": "1.0.0",
+  "description": "Utility functions and helpers for common Vue.js tasks.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clifland/vuejs-utils.git"
+  },
+  "keywords": [
+    "vue",
+    "utilities",
+    "helpers",
+    "components",
+    "testing"
+  ],
+  "author": "Cliford Pereira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Clifland/vuejs-utils/issues"
+  },
+  "homepage": "https://github.com/Clifland/vuejs-utils#readme",
+  "peerDependencies": {
+    "@vue/test-utils": "^2.4.6",
+    "vitest": "^2.1.3"
+  }
+}
