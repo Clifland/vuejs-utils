@@ -25,18 +25,34 @@ npm install -D @clifland/vuejs-utils @vue/test-utils vitest
 
 The testComponentTextRendering helper function allows you to verify the text rendering of your Vue components during tests.
 
-### Steps to use
+### Steps to Use
 
 1. Create a test file in tests folder, e.g., tests/RenderComponent.test.js.
 2. Import the helper function and pass your component data as arrays, as shown in the example.
 
-### Example
+### Example (JavaScript)
 
 ```js
 // tests/RenderComponent.test.js.
 import { testComponentTextRendering } from '@clifland/vuejs-utils';
 
 const componentsToTest = [
+    ["MyComponent", "Expected text"],
+    ["AnotherComponent", "Another expected text"]
+];
+
+testComponentTextRendering(componentsToTest);
+```
+
+### Example (TypeScript)
+
+If you are using TypeScript, you should define your components with type annotations as follows:
+
+```ts
+// tests/RenderComponent.test.ts.
+import { testComponentTextRendering } from '@clifland/vuejs-utils';
+
+const componentsToTest: [string, string][] = [
     ["MyComponent", "Expected text"],
     ["AnotherComponent", "Another expected text"]
 ];
