@@ -1,6 +1,6 @@
 {
   "name": "@clifland/vuejs-utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Utility functions and helpers for common Vue.js tasks.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
