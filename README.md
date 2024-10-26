@@ -28,11 +28,12 @@ The testComponentTextRendering helper function allows you to verify the text ren
 ### Steps to use
 
 1. Create a test file in tests folder, e.g., tests/RenderComponent.test.js.
-2. Import the helper function and pass your component data.
+2. Import the helper function and pass your component data as arrays, as shown in the example.
 
 ### Example
 
 ```js
+// tests/RenderComponent.test.js.
 import { testComponentTextRendering } from '@clifland/vuejs-utils';
 
 const componentsToTest = [
@@ -41,4 +42,12 @@ const componentsToTest = [
 ];
 
 testComponentTextRendering(componentsToTest);
+```
+
+### Run the Tests
+
+To run the tests, use the following command:
+
+```bash
+npx vitest
 ```
