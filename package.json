@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Utility functions and helpers for common Vue.js tasks.",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "vitest"
   },
